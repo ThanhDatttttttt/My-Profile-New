@@ -64,7 +64,7 @@ const PROJECTS = [
     category: 'Online Tet Greeting Cards',
     desc: 'Welcome Tet 2026 – the Year of the Horse with a beautifully crafted online Tet greeting card inspired by traditional Vietnamese New Year celebrations. Send heartfelt wishes of Peace, Prosperity, Happiness, and Good Fortune to your family, friends, and loved ones in a truly special way.',
     tech: ['TypeScript', 'CSS', 'Node.js'],
-    image: '/png/ThiepTet.png',
+    image: `${import.meta.env.BASE_URL}png/ThiepTet.png`,
     color: '#1a1508',
     link: '#',
     github: '#',
@@ -74,7 +74,7 @@ const PROJECTS = [
     category: 'Online Birthday Greeting Cards',
     desc: 'Make every birthday unforgettable with a personalized online birthday card filled with love, joy, and beautiful surprises. Create a special moment and send your heartfelt wishes to someone who means the world to you.',
     tech: ['JavaScript', 'CSS', 'TypeScript', 'HTML'],
-    image: '/png/ThiepSN.png',
+    image: `${import.meta.env.BASE_URL}png/ThiepSN.png`,
     color: '#0a0f1a',
     link: '#',
     github: '#',
@@ -84,7 +84,7 @@ const PROJECTS = [
     category: 'online RoomChat Pro',
     desc: 'RoomChat Pro is a modern messaging application designed to bring people together through simple, convenient, and private conversations. Create an account, join chat rooms, connect with other members, and share your thoughts in real time.',
     tech: ['C#', 'Figma', 'PLpgSQL'],
-    image: '/png/RoomChat.jpg',
+    image: `${import.meta.env.BASE_URL}png/RoomChat.jpg`,
     color: '#0a1208',
     link: '#',
     github: '#',
@@ -253,7 +253,7 @@ function Hero({ bg, dark }: { bg: string; dark: boolean }) {
           <div className="animate-fade-in delay-400 flex justify-center lg:justify-end">
             <div className="glass-card relative" style={{ borderRadius: 4, overflow: 'hidden', width: 320, flexShrink: 0 }}>
               <img
-                  src="/png/TD1.png"
+                  src={`${import.meta.env.BASE_URL}png/TD1.png`}
                   alt="Profile photo"
                   style={{
                     width: '100%',
