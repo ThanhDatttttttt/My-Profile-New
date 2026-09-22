@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning personal portfolio websites with a luxurious minimalist design, featuring smooth animations and responsive layouts for professionals.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
